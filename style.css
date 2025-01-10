@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+#class{
+    color:red;
+   text-align: center; 
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    margin: 50px ;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profiles{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.profile img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+.profile h3 {
+    margin: 0;
+    font-size: 0.8rem;
+    color: grey;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width:100% ;
+    font-size: 0.8rem;
+    color: grey;
+    text-align: center;
+}
